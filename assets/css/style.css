@@ -1,0 +1,202 @@
+/*
+wood brown: A89F68;
+army green: 41521F;
+*/
+/* ESTILOS GENERALES */
+* {
+	font-family: 'El Messiri', Helvetica, Arial, sans-serif;
+}
+h1, h2, h3 {
+	font-weight: 700;
+	color: #A89F68;
+}
+.lead {
+    font-size: 18px;
+}
+a {
+	color: #A89F68;
+}
+a:hover,
+a:focus,
+a:active {
+	color: #41521F;
+}
+a,
+a:hover,
+a:focus,
+a:active,
+.btn,
+.btn:hover,
+.btn:focus,
+.btn:active {
+	transition: .5s all ease;
+}
+.btn-default {
+    color: #fff;
+    background-color: #41521F;
+    border: #41521F;
+}
+.btn {
+	font-weight: 700;
+}
+
+.bg-img {
+	min-height: 100vh;
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+}
+.bg-color {
+	background-color: #A89F68;
+	color: #fff;
+	padding: 5em 0;
+}
+.bg-color h2 {
+	color: #41521F;
+}
+.bg-color h2 small {
+	color: #fff;	
+}
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+/* NAVBAR */
+menu {
+	margin: 0;
+	padding: 0;
+}
+.navbar-brand h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 140%;
+    color: #fff;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0,.7);
+	transition: .5s all ease;
+}
+.navbar-inverse {
+    background-color: transparent;
+    border: none;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+    font-size: 150%;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0,.7);
+}
+.navbar-brand:hover h1,
+.navbar-brand:focus h1,
+.navbar-brand:active h1,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:active {
+    color: #ccc;
+	transition: .5s all ease;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #fff;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #ccc;
+}
+
+/* HERO */
+
+header#hero {
+	background-image: url(../img/portada.jpg);
+	position: relative;
+}
+header#hero h1 {
+	font-size: 400%;
+}
+header#hero .box {
+	position: absolute;
+	width: 30%;
+	top: 35vh;
+	bottom: 35vh;
+}
+
+/* FOUNDATION */
+#foundation {
+	min-height: 100vh;
+	padding: 15vh 0;
+}
+#foundation .box {
+	padding-top: 10vh;
+}
+
+/* KOALAS */
+#koalas img {
+	margin-top: 2em;
+}
+
+/* HELP */
+#help {
+	background-image: url(../img/all.jpg);
+	padding: 5em 0;
+}
+#help h2, #help h2 small {
+	color: #fff;
+}
+
+/* DONATE */
+#donate {
+    padding: 5em 0;
+}
+
+/* DONATION options */
+#donation-options .jumbotron {
+    background: transparent;
+    color: #000;
+}
+#donation-options .jumbotron h1 {
+	color: #fff;
+}
+#donation-options .jumbotron h1 {
+	font-size: 700%;
+	position: relative;
+	width: 55%;
+	margin: 0 auto;
+}
+#donation-options .jumbotron h1:before,
+#donation-options .jumbotron h1:after {
+	font-size: 25%;
+	color: #fff;
+}
+#donation-options .jumbotron h1:before {
+	content: '$';
+	position: absolute;
+	left: -15px;
+    top: 10px;
+}
+#donation-options .jumbotron h1:after {
+	content: '/ AUD';
+    position: absolute;
+    right: -50px;
+    bottom: 20px;
+}
+#donation-options .jumbotron p {
+	font-size: 16px;
+}
+
+/* FOOTER */
+footer {
+    color: #fff;
+    background-color: #41521F;
+    padding: 5em 0 2em;
+}
+footer h4 {
+	color: #A89F68;
+	font-weight: 700;
+}
+footer .signature {
+	padding: 3em 0 0;
+}
+footer a:hover,
+footer a:focus,
+footer a:active {
+	color: #fff;
+}
