@@ -149,6 +149,15 @@ header#hero .box {
 #donate {
     padding: 5em 0;
 }
+#donate .carousel {
+    margin: 3em 0 0;
+}
+#donate .carousel-inner > .item > img {
+	max-height: 550px;
+    margin: 0 auto;
+    height: auto;
+    max-width: 100%;
+}
 
 /* DONATION options */
 #donation-options .jumbotron {
