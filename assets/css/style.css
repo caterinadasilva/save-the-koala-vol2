@@ -114,9 +114,9 @@ header#hero h1 {
 }
 header#hero .box {
 	position: absolute;
-	width: 30%;
+	width: 35%;
 	top: 35vh;
-	bottom: 35vh;
+    padding: 0 15px;
 }
 
 /* FOUNDATION */
@@ -140,6 +140,9 @@ header#hero .box {
 }
 #help h2, #help h2 small {
 	color: #fff;
+}
+.modal-title {
+	color: #41521F;
 }
 
 /* DONATE */
