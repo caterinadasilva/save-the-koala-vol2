@@ -64,6 +64,9 @@ ul {
 	list-style: none;
 	padding: 0;
 }
+.modal-dialog {
+    margin: 30vh auto;
+}
 
 /* NAVBAR */
 menu {
