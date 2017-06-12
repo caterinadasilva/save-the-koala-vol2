@@ -197,6 +197,18 @@ header#hero .box {
 	font-size: 16px;
 }
 
+#collapseExample {
+    margin: 1em 0 0;
+}
+#collapseExample .well {
+	background-color: #41521F;
+    border: none;
+    color: #fff;
+}
+#collapseExample .well p {
+    margin: 0;
+}
+
 /* FOOTER */
 footer {
     color: #fff;
